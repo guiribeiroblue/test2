@@ -1,0 +1,33 @@
+@font-face {
+    font-family: Digital-7;
+    src: url(./fonts/digital-7.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#clock{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    background-color: #8822ff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    font-family: Digital-7;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px #555;
+}
